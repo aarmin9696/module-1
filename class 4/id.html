@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes and Id in html</title>
+
+    <!-- this is added for not writing style attribute again and again for doing same task we create this class and
+    it will do same task for all having same class name  -->
+    <style>
+        /* targetting all the classes with value para
+        . is used for when we use class as selector */
+          .para{
+            color: red;
+           border: 1px solid black;
+          }
+          /* for this we will target unique id it is used to give unique style to a tag
+          # is used for when we use class as selector */
+          #para-id{
+            background-color: skyblue;
+          }
+    </style>
+</head>
+<body>
+  
+    <!-- instead of this is for doing same task for multiple tags for this we have to add style attribute in head and define properties
+    and it will be applied to all same classes -->
+    <h1 class="para">classes</h1>
+    <!-- here id is unique means no two tag can have same name for this we have to add 
+    write it in style under head -->
+    <p class="para" id="para-id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque expedita laboriosam a! Quo id labore velit dicta eos recusandae!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque expedita laboriosam a! Quo id labore velit dicta eos recusandae!</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque expedita laboriosam a! Quo id labore velit dicta eos recusandae!</p>
+    <!-- this will not be changed as diff class -->
+    <p class="diff">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eaque expedita laboriosam a! Quo id labore velit dicta eos recusandae!</p>
+    <div class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit ad ut nesciunt earum nemo rem tenetur ipsa obcaecati quia!</div>
+
+</body>
+</html>

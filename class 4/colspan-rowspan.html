@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in Html</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            border-color: red;
+            color: blueviolet;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- this can also be done for remove dual borders -->
+    <table border="1" cellspacing="0">
+        <!-- tr-for row    td-for column    th- for heading -->
+        
+        <!-- for adding caption -->
+        <caption>Table</caption> 
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>piyush</td>
+            <td rowspan="2">27</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>piyush</td>
+            <td>27</td>
+            <td>male</td>
+        </tr>
+        <tr>
+            <td>piyush</td>
+            <td>27</td>
+            <td>male</td>
+        </tr>
+    </table>
+</body>
+</html>
