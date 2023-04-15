@@ -2,11 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- link style sheet  -->
+    <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- title -->
+    <title>The Beagle Blog</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,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">
 </head>
 <body>
-    <h1>welcome to module 1</h1>
+    <!-- top most div -->
+    <section style="outline: 2px solid black;">
+        
+       <div>
+        <h1><strong><u>The Beagle Blog</u></strong></h1>
+       </div>
+       
+       <div>
+        <p>
+            The <strong><i>Beagle</i></strong> is a breed of small scent hound, similar in appearance to the much 
+             larger foxhound. The <strong><i>beagle</i></strong> was developed primarily forhunting hare, known as 
+              beagling. Possessing a great sense of smelland superior tracking instincts, the 
+             <strong><i>beagle</i></strong> is the primary breed used as a detection dog for prohibited agricultural 
+             imports and foodstuffs in quarantine around the world. The <strong><i>beagle</i></strong> is intelligent 
+             and is a popular pet due to its size, good temper, and a lack of inherited health 
+             problems.
+         </p>
+         <a href="https://en.wikipedia.org/wiki/Beagle ">Read more</a>
+       </div>
+       <br>
+    </section>
+<br>
+    <!-- the image div -->
+    <section>
+            <div>
+                <h3><strong><u>Images</u></strong></h3>
+            </div>
+
+            <div>
+                <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2021/01/13180313/Beagle-puppy-standing-in-the-grass-1.jpeg" 
+                alt="beagle image" width="1051px" height="762px" top="874px" left="58px">
+
+                <br><br>
+
+                <a href="https://www.google.com/search?q=beagle&rlz=1C5CHFA_enUS944US945&sxsrf=ALiCzsYi_xLzuX5-mgRt-U2UMiiEwhaCTA:1672839794160&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiat8ntha78AhVnDbcAHX7UCYYQ_AUoAXoECAEQAw&biw=1629&bih=894&dpr=2.2">More images</a>
+            </div>
+    </section>
+<br>
+    <!-- trivia -->
+    <section>
+
+        <div>
+            <h3><strong><u>Trivia</u></strong></h3>
+        </div>
+
+        <div>
+            <ol>
+                <li>Height - 13–16 in (33–41 cm)</li>
+                <li>Weight - 22–25 lb (10.0–11.3 kg)</li>
+                <li>Coat -Short haired, hard coat of medium length</li>
+                <li>Colour -Tricolor or white in combination with black & tan/brown or brown/tan</li>
+                <li>Life span - 12–15 years</li>
+            </ol>
+        </div>
+            
+    </section>
 </body>
 </html>
