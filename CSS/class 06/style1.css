@@ -1,0 +1,14 @@
+p{
+    border: 1px solid brown;
+    color: aqua;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  h1{
+      border: 1px dashed burlywood;
+      color: blueviolet;
+  }
+  h2{
+    border: 1px dashed rgb(222, 135, 138);
+    color: rgb(67, 226, 43);
+  }

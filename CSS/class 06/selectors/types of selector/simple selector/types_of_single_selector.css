@@ -1,0 +1,55 @@
+/* 1. tag selector - it is done by using tag */
+
+
+  h1{
+      border: 1px dashed burlywood;
+      color: blueviolet;
+  }
+  
+
+  /* 2.class selector - it selcts html element with specific class attribute
+      .class_name{
+        property:value 
+      }*/
+
+      .para{
+        color: aqua;
+        
+        border: 1px solid red;
+      }
+
+  /* 3.id selector- it selects html element with specific id 
+     #id_name{
+              prop:value 
+     }*/
+
+     #p1{
+        background-color: blueviolet;
+     }
+
+     #b1{
+        background-color: aqua;
+     }
+     #b2{
+        background-color: blue ;
+     }
+     #b3{
+        background-color: brown;
+     }
+
+     /* 4.universal selector- it selects all the html elements in your page 
+
+     *{
+        prop:value
+     } */
+     *{
+        text-align: center;
+     }
+
+     /* 5.grouping selectors - used for groupingdiff selectors which have same style to reduce redundancy */
+      
+     h2,#p2{
+        background-color: blue;
+     }
+
+     

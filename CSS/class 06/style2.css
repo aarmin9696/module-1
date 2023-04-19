@@ -1,0 +1,14 @@
+h3{
+    border: 2px solid rgb(7, 7, 7);
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    font-weight: 800;
+  }
+  h4{
+      border: 2px dashed rgb(6, 6, 6);
+      color: rgb(15, 14, 15);
+  }
+  h5{
+    border: 2px dashed rgb(17, 7, 7);
+    color: rgb(9, 9, 9);
+  }

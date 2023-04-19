@@ -1,0 +1,16 @@
+/* 1. general sibling selector- denoted by (~) 
+   targets all general sibling of h1 tag of div tag 
+   div ~ h1{
+    color:red
+   } 
+   this means target all the  p tags that are sibling of h1 but after it
+   in this it we can have class and id also  */
+
+   h1 ~ p{
+    color: red;
+   }
+
+   /* target all the h1 tag that are sibling of para class which are after it  */
+   .para ~ h1{
+    color: blue;
+   }
