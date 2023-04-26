@@ -1,0 +1,60 @@
+.container{
+    width: 100%;
+    background-color: lightblue;
+    display: grid;
+   /* 1. */
+    grid-template-columns: 25% 25% 25% 25%; 
+   /*   we can also write this as follow  b/c there can be more no. of rows also*/
+    grid-template-columns: repeat(4,25%);
+    /* here 4 is the no. of column and 25% is width of each column */
+    grid-template-columns: auto;
+    /* if we write 1 auto 1 column and width is taken automatically and if 2 times auto 
+    2 column and if 3 times auto there will be 3 columns and so on  */
+
+    grid-template-columns: 1fr 1fr 2fr ;
+    /* fr is fraction 1fr will give 1st colum less width   and 2nd column 1fr wiill have width 
+    3rd column 2 fr will take more width */
+
+    /* 2. */
+    grid-template-rows: 1fr 1fr;
+                      /* :20% 50%
+                      :repeat(12,20%) here there  no. of column and height not width */
+    /* 3. */
+    row-gap: 0px;
+    /* 4. */
+    column-gap: 0px;
+    /* 5. */
+    gap: 4px 4px; 
+     /* gap shorthand of row gap and column gap 
+     10px is row gap and 12px is column gap  */
+   
+     /* 6. justify-items - align items along x axis */
+
+     grid-template-columns: repeat(4,25%);
+
+     /* start,end,strech(by default), center*/
+ 
+     justify-items: center;
+
+     /* 7. align items - aligns in y axis (start,end,strech(by default), center) */
+
+     align-items: end;
+
+     /* 8. place-items: align-items justify items  -shorthand for both */
+
+     place-items: center;
+     place-items: center start;
+     /* here center is align items and start is justify items */
+
+     /* 9. justify-content: moves the whole grid/parent
+     start center end space evenly space between space around */
+     justify-content: space-around;
+
+
+}
+
+.container .item{
+    background-color: blue;
+    color: white;
+    /* margin: 5px; */
+}

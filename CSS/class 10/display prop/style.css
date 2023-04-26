@@ -1,0 +1,44 @@
+/* grid- it is used to create 2d layout while flexbox used for 1d layout
+
+display:grid
+
+display properties-
+
+1. display:inline - 
+ span is given display 
+ width and height cant be given if this used
+ 
+
+2. display:block - width and height can be given to element
+
+
+3. display:inline-block - width and height can be given to element
+
+
+4. display:flex - 
+
+
+5. display:grid- 
+
+
+
+
+6. display:none- 
+
+
+
+ */
+
+ /* div{
+    display: inline;
+ }
+
+ span{
+    display:block;
+ } */
+
+ /* div{
+    display: inline-block;
+ } */
+
+

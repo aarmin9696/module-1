@@ -1,0 +1,23 @@
+*{
+     margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: pink;
+    width: 100vw;
+    color: purple;
+    height: 100vh;
+   
+
+}
+
+
+/* smaller screens */
+
+@media screen and (min-width: 320px) and (max-width:480px){
+    background-color: light-blue;
+    color: blue;
+}
+    
+

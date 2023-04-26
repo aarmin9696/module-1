@@ -6,13 +6,51 @@
    this means target all the  p tags that are sibling of h1 but after it
    in this it we can have class and id also  */
 
-   h1 ~ p{
+    h1 ~ p{
     color: red;
-   }
-
+   } 
+     
+   /* it can be combination of simple selctors also except universal selctor */
    /* target all the h1 tag that are sibling of para class which are after it  */
-   .para ~ h1{
-    color: blue;
-   }
 
-   2.  selector
+    .para ~ h1{
+    color: blue;
+   } 
+
+   /* 2. adjacent sibling selector - denoted by (+)
+        - select the sibling tag that is jst after main tag
+
+        h1 + p{
+               color:red 
+              }
+              selecting adjacent p tag that is coming immediately after h2 tag
+              in this class and id can be used
+   */
+
+
+         h2 + p{
+            color: yellowgreen;
+         }
+
+         .pg + p{
+            color: violet;
+         }
+
+         /* 3. child selector (>)
+            - target all the direct children tag
+            this will target all the p tag that are direct child of div tag
+             */
+
+             div > p{
+               color: goldenrod;
+             }
+
+
+
+
+        /* 4. descendant  selector ( space) 
+        targets all children/descendant of an element */
+
+        div p{
+         color: slategray;
+        }

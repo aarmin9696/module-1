@@ -1,0 +1,17 @@
+.container .item{
+    background-color: blue;
+    color: white;
+    /* margin: 5px; */
+}
+
+.container{
+    width: 100%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    gap: 5px 5px;
+    height: 500px;
+    color: white;
+    font-size: 64px;
+
+} 

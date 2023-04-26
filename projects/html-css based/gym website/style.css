@@ -1,0 +1,111 @@
+/* css reset  */
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url('./images/bg.jpg');
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.left{
+     display: inline-block;
+     position: absolute;
+     top: 20px;
+    left: 60px;
+    
+}
+
+.left img{
+    width: 100px;
+    margin-left: 20px;
+}
+
+.left div{
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.center{
+    display: block;
+    width: 45%;
+    margin: 30px auto;
+    
+}
+
+.right{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    display: inline-block;
+}
+
+.btn{
+    margin: 0px 10px;
+    background-color: goldenrod;
+    color: black;
+    padding: 5px 15px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.btn:hover{
+    background-color: lightcoral;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.nav li a{
+    text-decoration: none;
+    padding: 35px 25px;
+    color: white;
+}
+
+.nav li a:hover, .nav li a.active{
+           text-decoration: underline;
+           color: lightcoral;
+}
+
+
+.container{
+    margin: 110px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 30px;
+    
+}
+
+.container h1{
+    padding-left: 10px;
+}
+
+.form-group input{
+    display: block;
+    width: 300px;
+    
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+
+::placeholder{
+      color: rgb(72, 71, 71);
+      font-family: 'Nunito', sans-serif;
+}
+

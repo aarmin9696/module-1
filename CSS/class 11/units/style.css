@@ -1,0 +1,20 @@
+units-
+
+1. absolute units - actual physical units that are same across all devices
+ 
+a) px(pixel) < b)pt(point) < c)mm  <  d)pc(picass)  <  e) cm <  f)in(inch)  
+
+2. relative units - calculated on the basis of another elements size
+
+a) em - inherits from parent element 
+
+b) % - inherits from parent element 
+
+c) rem - (root em) - inherits from root element 
+
+d) vw (view width)- w.r.t viewport 100vw means takes full width
+
+e) vh (view height)- w.r.t viewport
+
+
+we must use relative units bcoz it changes acc to screen size while absolute remains same thats not good

@@ -1,0 +1,15 @@
+/* inheritance -  */
+
+section{
+    color: pink;
+}
+
+/* in this we can give color to parent tag and in child tag we can give value of inherit */
+
+div{
+   color: green;
+}
+
+p{
+    color: inherit;
+}

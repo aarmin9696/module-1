@@ -1,0 +1,64 @@
+/*1. static positioning - the original or default position of an element
+
+2.relative positioning -  element is positioned relative to its normal or originl position
+and it is same as static positioning jst a diff we can move our elements
+by adding offset values  and element stays in normal document flow
+
+3. absolute positioning - element is positioned related to its parent 
+but if parent is not present element is positioned relative to main document
+and elemnt is removed from normal document flow and no space is created for elemnt
+
+4. fixed position- element is positioned relative to viewport element doesnt
+moves and stays in same position even after scrolling
+- element is removed from normal flow
+
+5. sticky position - element is positioned acc to the normal document flow
+till the element hits the top it has normal position,after it touches the
+top it becomes fixed
+*/
+
+.parent{
+    position: static;
+     top: 10px; /* this will not work as this is static */
+}
+
+
+.child{
+
+}
+
+.child1{
+    position: relative;
+     top: 20px; /*  this will change  */
+     left: 20px;
+     right: 20px;
+     bottom: 40px;
+}
+
+.child2{
+    position: absolute;
+    top: 20px;  
+
+    /* this will do acc to body tag 
+    for relative to parent parent should be made relative */
+    
+}
+
+.child3{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+nav{
+    position: fixed;
+    background-color: aqua;
+    top: 0px;
+    padding: 10px;
+}
+
+h1{
+    position: sticky;
+    top: 0px;
+    background-color: green;
+}

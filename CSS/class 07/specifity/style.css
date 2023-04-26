@@ -1,0 +1,57 @@
+/* 4.specifity- score/rank that determines which style is picked up */
+
+
+
+
+/* important - 10000 */
+.para{
+    color: yellow, i !important;
+}
+
+/* inline css - 1000 */
+
+/* id selector - 100 specifity */
+#p1{
+    color: gold;
+}
+
+/* class,pseudo class,attribute selector - 10 specifity */
+
+.para{
+    color:yellow
+}
+
+:hover{
+    color: black;
+    cursor: pointer;
+}
+
+[type="text"]{
+    border: 1px solid red;
+}
+
+/* tags and pseudo element selector - 1 specifity */
+input{
+    border: 1px solid blue;
+}
+
+p{
+    color: red;
+}
+
+::marker{
+    color: red;
+}
+
+
+/* univesal selector - 0 specifity */
+
+*{
+    color: green;
+}
+
+
+/* in case of combination just break and add it
+
+
+*/

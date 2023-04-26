@@ -1,0 +1,94 @@
+/*
+pseudo class selctor- use to define special state of element starts by(:)
+
+eg :link ,
+
+pseudo class are those classes are based on event
+
+
+syntax     any_selector(class,tag):pseudo-class
+
+
+    
+1. 
+  :link - selects all the unvisited links
+*/
+a:link{
+    color: pink;
+}
+
+
+
+/* 2.   :visited - selects all the visited links
+
+*/
+a:visited{
+    color: brown;
+}
+
+
+/* 3. :hover - add styles when you move cursor on an element
+
+*/
+a:hover{
+    color: blueviolet;
+}
+
+/* class can be also styled */
+
+.btn{
+          border: 5px solid green;
+          border-radius: 10px;
+          padding: 10px 22px;
+          width: 20%;
+          font-size: 16px;
+          color: green;
+          background-color: lightgreen;
+}
+
+/* using hover with class */
+  .btn:hover{
+    background-color: white;
+    border: 10px solid gold;
+    color: greenyellow;
+}
+
+
+/* 4. :active - selects all active link after clicking
+*/
+a:active{
+    color: gray;
+}
+
+
+/* 5. input:focus - selcts an element whose focus is on and usually used with input only */
+
+input:focus{
+    background-color: yellow;
+}
+
+/* 6. :first-child :last-child :nth-child()  */
+
+.container p:first-child{
+    color: lightblue;
+}
+
+.container p:last-child{
+    color: green;
+}
+ 
+/* nth even */
+.container p:nth-child(2n){
+    color: blue;
+}
+
+/* nth odd */
+.container p:nth-child(2n+1){
+    color: lightseagreen;
+}
+
+/* can also add hover by grouping */
+
+.container p:nth-child(2n+1):hover{
+    background-color: goldenrod;
+}

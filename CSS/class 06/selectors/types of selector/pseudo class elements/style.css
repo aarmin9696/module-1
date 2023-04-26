@@ -1,0 +1,40 @@
+/* pseudo class element (::) - use to style specified part of element 
+
+syntax -      selector::pseudo-element{
+                                prop.:value
+                                      }
+
+
+diff b/w pseudo class and element-
+
+- pseudo elemnts are added in part of element wheras pseudo class are based on specific events
+- 2nd is of syntax - pseudo class(:) and pseudo element (::)
+
+
+types of pseudo element:- 
+
+1. ::first-line*/
+
+.para1::first-line{
+    color: gold;
+}
+
+/* 2. ::first-letter */
+
+.para1::first-letter{
+    color: green;
+}
+
+/* 3. ::after */
+
+.para1::after{
+    content: "hey there how are you";
+    color: aqua;
+    background-color: blanchedalmond;
+}
+
+/* 4. ::before */
+ .para1::before{
+    content: url(./img.jpeg);
+    
+}

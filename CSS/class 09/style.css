@@ -1,0 +1,81 @@
+/* flex - flex is used to layout the page
+- it is used to organise elements either in row or column
+
+1. display:flex - aligns in rowise which is by default
+
+2. flex-direction:row/row reverse/column/column-reverse
+
+3. flex-wrap - as items added items squueze themselves to add extra items added
+in same line to prevent squeeze we use wrap to start from new line if width 
+increse screen size 
+
+a) flex-wrap:no-wrap  -by dafult - in same line
+b) flex-wrap:wrap - starts in new line acc. to width
+c) flex-wrap: wrap reverse - arranges in bottom to top
+
+
+4. flex flow - it gives value to both dir and wrap
+
+5. justify-content - use to set the alignment in x-axis by dafault its value is start
+a)start- by default
+b)end-
+c)centre
+d)space-between - space between elements 
+e)space-evenly - all side space is equal and between elements
+f)space-around- in this extreme left and right will get half of the space ie b/w elements
+
+6. align-items - used to arrange elements wrt y-axis but we should have
+single row or the flex wrap value should be no wrap
+a) strech - by default it is this and streched
+b) start - moves in start
+c) end - moves in end
+d) centre - moves in centre
+e) baseline - all contents even double line single line starts from same line
+
+7. align content - used to align items wrt y axis but works only when we have 
+muultiple rows and flex wrap is wrap
+
+flex start,flex end, centre, space between, space around, space evenly
+all this is wrt y-axis
+
+
+8. gap- it provides gap b/w elements
+
+gap:20px -provides both to row- column
+gap:20px 30px- 20-row  30- column
+row-gap:20px
+col-gap:20px
+
+
+*/
+
+.container{
+    background-color: lightblue;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+    flex-flow: nowrap;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    gap
+
+}
+
+.container .item1{
+    width: 20%;
+    background-color: blue;
+    padding: 20px;
+    margin: 2px;
+    font-size: 20px;
+    border: 1px solid black;
+    color: white;
+
+
+}

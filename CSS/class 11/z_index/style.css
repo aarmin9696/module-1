@@ -1,0 +1,37 @@
+/* z-index- its a css prop that controls the stacking order of overlapping element on a webpage 
+for this we should have position property except static
+
+
+*/
+
+
+div{
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: absolute;
+}
+
+.red{
+      background-color: red;
+      top: 20px;
+      left: 20px;
+      z-index: 1;
+}
+.yellow{
+    background-color: yellow;
+   z-index: auto;
+}
+.blue{
+    background-color: blue;
+    top: 40px;
+      left: 40px;
+      z-index: 3;
+      /* by giving the value to z index we can make this at top of stack */
+}
+.green{
+    background-color: green;
+    top: 60px;
+      left: 60px;
+      z-index: 2;
+}

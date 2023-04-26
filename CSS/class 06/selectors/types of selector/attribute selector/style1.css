@@ -1,0 +1,23 @@
+.squ{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.squ:nth-child(2n) {
+    background-color: red;
+}
+
+.squ:nth-child(2n+1) {
+    background-color: blue;
+}
+
+.squ:nth-child(2n):hover {
+    background-color: blue;
+}
+
+.squ:nth-child(2n+1):hover {
+    background-color: red;
+}

@@ -1,0 +1,57 @@
+
+
+/* <!-- cascading - it is algorithm for solving conflict in case muultiple css applied to same element
+
+cascade algorithm has 4 stages 
+1. position and order of appearance
+this takes into consideration where css is added in code 
+css that appears at last is picked up
+--> */
+
+
+p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+/* in the above eg p will get color blue as it is in last */
+
+/* 2. origin - the order of when css appears and from where it comes from
+
+css is not only from style sheet it can be from
+a) user agent css-comes from browser
+b) local user css - comes from os 
+c) authored css - custom css ie what we write in stylesheet
+
+order of importance -  authored css>local user css>user agent css
+
+!important - has the highest priority
+
+user agent css>local user css>authored css>authored css>local user css>user agent css
+
+css gives liberty but something cant be changed means ideally it cant be changed even if u try doing 
+by writing in  css it cant be changed
+
+
+*/
+
+h1{
+    color: green;
+}
+h1{
+    color: blueviolet;
+}
+
+
+
+4.specifity-
+
+
+
+
+
+
+
