@@ -1,0 +1,8 @@
+.accordion-item{
+    border: none;
+    width: 90%;
+}
+
+accordion-header{
+     height: 10vh;
+}
