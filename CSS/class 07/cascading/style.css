@@ -30,7 +30,7 @@ order of importance -  authored css>local user css>user agent css
 
 !important - has the highest priority
 
-user agent css>local user css>authored css>authored css>local user css>user agent css
+user agent csswith !important tag>local user csswith !important tag>authored csswith !important tag>authored css>local user css>user agent css
 
 css gives liberty but something cant be changed means ideally it cant be changed even if u try doing 
 by writing in  css it cant be changed
