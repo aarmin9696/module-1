@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .btn{
+            color: green;
+        }
+        .btnfailure{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <input style="color: red; border: 2px solid blue;" type="number" id="age" required name="age" placeholder="enter age"> -->
+
+
+    <div class="parent">
+        parent
+        <div class="child">
+            child
+            <p class="grand-child">
+                grand-child
+            </p>
+        </div>
+        <button class="btn" id="buttonClick" >click me</button>
+    </div>
+
+    <img id = image src="./p1.jpeg" width="200" height="200" style="color: red ; background-color: blue;" alt="">
+
+
+    <!-- //DOM - document object model - when we represent html as an object in js -->
+
+    <!-- reprentation of html code in the js as an object is called dom -->
+
+    <!-- div = {
+        element_type:"div",
+        class: "parent",
+        innerText: "parent",
+        children: [
+        {
+             element_type:"div",
+             class:"child",
+             innerText: "child"
+             children: [
+             {
+                class: "grand-child",
+                element_type: "p",
+                innerText: "grand-child"
+             }
+             ]
+        },
+        {
+            element_type:"button",
+            class:"btn",
+            id:"button",
+            innerText:"click me"
+            style: {
+                color:blue,
+                font_size:"24px"
+            },
+            children: []
+        }
+        ]
+    } -->
+    <script src="./script.js"></script>
+</body>
+</html>

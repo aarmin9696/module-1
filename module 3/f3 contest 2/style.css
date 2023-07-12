@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  

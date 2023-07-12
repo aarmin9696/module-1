@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <style>
+        .user{
+             display: flex;
+             justify-content: space-between;
+             width: 95%;
+             box-shadow: 1px 1px 4px lightgray;
+             padding: 10px;
+             border-radius: 5px;
+             align-items: center;
+        }
+        .user .close{
+            color: red !important;
+            border: 1px solid red;
+        }
+        .user .done{
+            color: green !important;
+            border: 1px solid green;
+        }
+        .user img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .user span{
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+        }
+        .user span:hover{
+            border-radius: 50%;
+            background-color: gray;
+        }
+        section{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(3,1fr);
+        }
+        section > div{
+            box-shadow: 2px 2px 10px lightgray;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="requests">
+            <div class="user">
+                
+                <div class="left">
+                    <img src="./download.jpeg" alt="">
+                    <div>
+                        <b>piyush</b>
+                        <span>12:30Am</span>
+                    </div>
+                </div>
+                 <div>
+                        <span class="material-icons close" >close</span>
+                        <span class="material-icons done" >done</span>
+                    </div>
+            </div>
+    
+            <div class="user">
+                
+                <div class="left">
+                    <img src="./download (2).jpeg" alt="">
+                    <div>
+                        <b>alka</b>
+                        <span>12:30Am</span>
+                    </div>
+                </div>
+                 <div>
+                        <span class="material-icons close" >close</span>
+                        <span class="material-icons done" >done</span>
+                    </div>
+            </div>
+    
+            <div class="user">
+                
+                <div class="left">
+                    <img src="./download.jpeg" alt="">
+                    <div>
+                        <b>umesh</b>
+                        <span>12:30Am</span>
+                    </div>
+                </div>
+                 <div>
+                        <span class="material-icons close" >close</span>
+                        <span class="material-icons done" >done</span>
+                    </div>
+            </div>
+    
+            <div class="user">
+                
+                <div class="left">
+                    <img src="./download (1).jpeg" alt="">
+                    <div>
+                        <b>prachi</b>
+                        <span>12:30Am</span>
+                    </div>
+                </div>
+                 <div>
+                        <span class="material-icons close" >close</span>
+                        <span class="material-icons done" >done</span>
+                    </div>
+            </div>
+    
+    
+            <div class="user">
+                
+                <div class="left">
+                    <img src="./download (2).jpeg" alt="">
+                    <div>
+                        <b>praful</b>
+                        <span>12:30Am</span>
+                    </div>
+                </div>
+                 <div>
+                        <span class="material-icons close" >close</span>
+                        <span class="material-icons done" >done</span>
+                    </div>
+            </div><div class="user">
+                
+                <div class="left">
+                    <img src="./download.jpeg" alt="">
+                    <div>
+                        <b>dinesh</b>
+                        <span>12:30Am</span>
+                    </div>
+                </div>
+                 <div>
+                        <span class="material-icons close" >close</span>
+                        <span class="material-icons done" >done</span>
+                    </div>
+            </div>
+        </div>
+    
+        <div id="accepted">
+               <h1>accepted requests</h1>
+        </div>
+    
+        <div id="rejected">
+              <h1>rejected requests</h1>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

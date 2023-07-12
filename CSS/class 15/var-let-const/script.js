@@ -6,7 +6,7 @@
 
 //===tdz starts for let and const variable=====
 
-console.log(a)
+console.log(a)//undefined
 var a=10;
 
 
